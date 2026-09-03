@@ -2,6 +2,8 @@ var ul = document.getElementById("firstId");
 var li = ul.querySelectorAll("li");
 var inputs = ul.querySelectorAll("input");
 
+var str = "string item"
+
 for(var i=0;i<li.length;i++){
     li[i].addEventListener("click", editItem);
 }
